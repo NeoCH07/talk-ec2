@@ -1,0 +1,19 @@
+{
+  "name": "cohort3-group2-capstone-project-chat",
+  "version": "1.0.0",
+  "description": "Chat App",
+  "main": "index.js",
+  "author": "Cohort 3 Group 2",
+  "dependencies": {
+    "express": "~4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+    
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "socket.io-client": "^4.7.2"
+  }
+}

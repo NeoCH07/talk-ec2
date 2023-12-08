@@ -30,10 +30,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            sudo apt-get -y update
-            sudo apt-get install bash
-            sudo apt update
-            sudo apt install nodejs
-            cd talk-ec2
-            git pull
+            cd talk-ec2            
             node index.js

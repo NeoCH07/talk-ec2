@@ -32,6 +32,8 @@ jobs:
           script: |
             sudo apt-get -y update
             sudo apt-get install bash
+            sudo apt update
+            sudo apt install nodejs
             cd talk-ec2
             git pull
             node index.js

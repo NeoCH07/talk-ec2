@@ -31,6 +31,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             sudo apt-get -y update
+            sudo apt-get install bash
             git clone https://github.com/NeoCH07/talk-ec2.git
             cd talk-ec2
             npm install
